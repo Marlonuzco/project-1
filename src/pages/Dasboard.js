@@ -5,6 +5,7 @@ import Navbar from "../components/Navbar";
 import '../assets/css/Dashboard.css'
 import PieChart from '../components/PieCharts'
 import LineChart from '../components/LineCharts'
+import SideBar from "../components/SideBar";
 
 function Dashboard(props) {
     return (
@@ -12,8 +13,12 @@ function Dashboard(props) {
             <Row>
                 <Col xs={24}>
                     <Navbar />
+                </Col>
+            </Row>
 
-
+            <Row>
+                <Col xs={24}>
+                    <SideBar />
                 </Col>
             </Row>
 
@@ -51,12 +56,12 @@ function Dashboard(props) {
 
                 <br />
 
-                 {/* 
+                {/* 
                  Estas son las graficas 
                  */}
 
                 <Row gutter={20}>
-                    
+
                     {/*Esta es una grafica circular*/}
                     <Col xs={24} md={12} className='graficaCircular'>
                         <PieChart />

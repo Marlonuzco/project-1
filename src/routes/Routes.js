@@ -3,13 +3,11 @@ import { BrowserRouter as Router, Routes, Route, BrowserRouter } from 'react-rou
 import Dashboard from '../pages/Dasboard';
 
 
-
 function Rutas() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route exact path="/" element={<Dashboard />}>
-        </Route>
+        <Route exact path="/" element={<Dashboard />} />
       </Routes>
     </BrowserRouter>
   );
