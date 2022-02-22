@@ -49,9 +49,9 @@ function Dashboard(props) {
 
                 <br />
 
-                 /* 
+                 {/* 
                  Estas son las graficas 
-                 */
+                 */}
 
                 <Row gutter={20}>
                     
