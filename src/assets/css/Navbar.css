@@ -1,0 +1,41 @@
+*{
+  margin: o;
+  padding: 0;
+}
+
+.ulizquierda{
+  float: left;
+  list-style: none;
+  display: flex;
+
+}
+
+.iconomenu{
+  font-size: 20px;
+  color: white;
+  padding-left: 20px;
+}
+
+.titulonav{
+  font-size: 18px;
+  color: white;
+  font-weight: bold;  
+
+}
+
+.ulderecha{
+  float: right;
+  list-style: none;
+  display: flex;
+  padding-right: 30px;
+}
+
+
+
+.ant-layout-header{
+  padding: 0px;
+}
+
+.navheader{
+  background: #606CF4;
+}
