@@ -49,6 +49,10 @@ function Dashboard(props) {
 
                 <br />
 
+                 /* 
+                 Estas son las graficas 
+                 */
+
                 <Row gutter={20}>
                     
                     <Col xs={24} md={12} className='graficaCircular'>
