@@ -50,6 +50,7 @@ function Dashboard(props) {
                 <br />
 
                 <Row gutter={20}>
+                    
                     <Col xs={24} md={12} className='graficaCircular'>
                         <PieChart />
                     </Col>
