@@ -3,6 +3,8 @@ import {Line} from '@ant-design/charts';
 
 function LineCharts(props){
 
+    //estos son mis datos como un objeto
+
     const dataLine = [
         {month: 'january', views: 13453 },
         {month: 'february', views: 12355 },
@@ -17,6 +19,8 @@ function LineCharts(props){
         {month: 'november', views: 16553 },
         {month: 'december', views: 15853 },
      ]; 
+
+     //configuración de la gráfica Lineal
 
      const configLine = {
          data: dataLine,

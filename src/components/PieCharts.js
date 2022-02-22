@@ -3,6 +3,8 @@ import { Pie } from '@ant-design/charts';
 
 function PieChart(props) {
 
+    //datos como objeto para la grafica circular
+
     const datapie = [
         {
             type: 'Venezuela',
@@ -37,6 +39,8 @@ function PieChart(props) {
             value: 1689
         }
     ];
+
+    //configurarión de mi gráfica circular
 
     const configPie = {
         appenPadding: 10,

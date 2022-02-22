@@ -19,6 +19,8 @@ function Dashboard(props) {
 
             <br />
 
+            {/* Estas son las tarjetas del contenido*/}
+
             <div className="contenedor">
                 <Row gutter={30}>
 
@@ -55,10 +57,12 @@ function Dashboard(props) {
 
                 <Row gutter={20}>
                     
+                    {/*Esta es una grafica circular*/}
                     <Col xs={24} md={12} className='graficaCircular'>
                         <PieChart />
                     </Col>
 
+                    {/*Esta es una grafica Lineal*/}
                     <Col xs={24} md={12}>
                         <LineChart />
                     </Col>
