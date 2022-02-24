@@ -45,7 +45,7 @@ function LineCharts(props){
 
      return(
 
-         <Line {...configLine} style={{backgroundColor: '#1F263C'}} />
+         <Line {...configLine} style={{backgroundColor: '#1F263C', padding: '20px'}} />
      )
 }
 

@@ -12,10 +12,6 @@ function Navbar(props) {
 
             <ul className='ulizquierda'>
 
-                <li> {/*en este icono se debe desplegar un sidebar*/}
-                    <MenuOutlined className='iconomenu' />
-                </li>
-
                 <li>
                     <span style={{ paddingLeft: "20px" }} className='titulonav'>Navbar</span>
                 </li>
