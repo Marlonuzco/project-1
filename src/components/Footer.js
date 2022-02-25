@@ -1,15 +1,17 @@
 import React from 'react';
 import { Layout } from 'antd';
+import '../assets/css/Footer.css'
+import {CopyrightOutlined } from '@ant-design/icons';
 
 
-const { Footer }= Layout;
+const { Footer } = Layout;
 
-class PageFooter extends React.Component{
-    render(){
-        return(
-            <Footer style={{textAlign:'center', background:''}}>
-            <h1>I am the Footer</h1>
-        </Footer>
+class PageFooter extends React.Component {
+    render() {
+        return (
+            <Footer style={{ textAlign: 'center', background: '#fff' }}>
+                Designed by Marlon Uzcátegui <CopyrightOutlined />
+            </Footer>
         )
     }
 }

@@ -7,7 +7,7 @@ body{
     background-color: #212121;
 }
 
-.cardscontenedor{
+.cardsContenedor{
     text-align: center;
 
 }
@@ -18,14 +18,16 @@ body{
 }
 
 .ant-statistic-title{
-    color: white;
+    color: black;
 }
+
+
 
 @media(max-width: 992px){
     .cardscontenedor{
         padding-bottom: 15px;
     }
-    .graficaCircular{
+    .pieChart{
         padding-bottom: 15px;
     }
 } 

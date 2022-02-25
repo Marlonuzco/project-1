@@ -51,7 +51,7 @@ function PieChart(props) {
         radius: 0.8,
         label: {
             type: 'inner',
-            offset: 'o.5',
+            offset: '0.5',
             content: '{name} {percentage}',
             style: {
                 fill: '#fff',
@@ -63,7 +63,7 @@ function PieChart(props) {
     }
 
     return (
-        <Pie {...configPie} style={{ backgroundColor: '#1F263C', padding: '20px' }}/>
+        <Pie {...configPie} style={{ backgroundColor: '#1F263C'}}/>
     )
 }
 

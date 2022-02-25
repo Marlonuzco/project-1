@@ -1,10 +1,10 @@
 import React from 'react';
-import { Layout } from 'antd';
-import { MenuOutlined, RobotFilled } from '@ant-design/icons';
+import { Layout, Menu } from 'antd';
+import { RobotFilled, BellOutlined } from '@ant-design/icons';
 import '../assets/css/Navbar.css';
 
-const { Header } = Layout;
 
+const { Header } = Layout;
 
 function Navbar(props) {
     return (
@@ -19,7 +19,8 @@ function Navbar(props) {
             </ul>
 
             <ul className='ulderecha'>
-                <a className='imgnav'><RobotFilled style={{ fontSize: '28px', color: 'white', padding: '3px' }} /></a>
+                <li className='notificationnav'><BellOutlined style={{ color: 'white', fontSize: '28px', padding: '12px' }} /> </li>
+                <li  className='imgnav'><RobotFilled style={{ fontSize: '28px', color: 'white', padding: '3px' }} /></li>
             </ul>
 
 

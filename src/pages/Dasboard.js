@@ -13,13 +13,13 @@ const { Content } = Layout;
 function Dashboard(props) {
     return (
         <Layout>
+            <Navbar />
 
-        <SideBar />    
 
-            <Layout  style={{ minHeight: '100vh' }}>
-            <Navbar />               
-                
-                <Content style={{ margin: '0 16px' }}>
+            <Layout style={{ minHeight: '100vh' }}>
+                <SideBar />
+
+                <Content style={{ margin: '0 16px', background: 'light' }}>
 
                     <br />
 
@@ -29,25 +29,25 @@ function Dashboard(props) {
 
                             <Col xs={24} sm={12} lg={6}>
                                 <div className="cardscontenedor">
-                                    <Statistic title='Title' value='Card value' valueStyle={{ color: 'white' }} style={{ backgroundColor: '#606CF4' }} className='cardscontenido' />
+                                    <Statistic title='Title' value='Card value' valueStyle={{ color: 'black' }} style={{ backgroundColor: '#fff' }} className='cardscontenido' />
                                 </div>
                             </Col>
 
                             <Col xs={24} sm={12} lg={6}>
                                 <div className="cardscontenedor">
-                                    <Statistic title='Title' value='Card value' valueStyle={{ color: 'white' }} style={{ backgroundColor: '#122F61' }} className='cardscontenido' />
+                                    <Statistic title='Title' value='Card value' valueStyle={{ color: 'black' }} style={{ backgroundColor: '#fff' }} className='cardscontenido' />
                                 </div>
                             </Col>
 
                             <Col xs={24} sm={12} lg={6}>
                                 <div className="cardscontenedor">
-                                    <Statistic title='Title' value='Card value' valueStyle={{ color: 'white' }} style={{ backgroundColor: '#364B6F' }} className='cardscontenido' />
+                                    <Statistic title='Title' value='Card value' valueStyle={{ color: 'black' }} style={{ backgroundColor: '#fff' }} className='cardscontenido' />
                                 </div>
                             </Col>
 
                             <Col xs={24} sm={12} lg={6}>
                                 <div className="cardscontenedor">
-                                    <Statistic title='Title' value='Card value' valueStyle={{ color: 'white' }} style={{ backgroundColor: '#5E7499' }} className='cardscontenido' />
+                                    <Statistic title='Title' value='Card value' valueStyle={{ color: 'black' }} style={{ backgroundColor: '#fff' }} className='cardscontenido' />
                                 </div>
                             </Col>
                         </Row>
@@ -61,7 +61,7 @@ function Dashboard(props) {
                         <Row gutter={20}>
 
                             {/*Esta es una grafica circular*/}
-                            <Col xs={24} md={12} className='graficaCircular'>
+                            <Col xs={24} md={12} className='pieChart'>
                                 <PieChart />
                             </Col>
 
@@ -74,10 +74,12 @@ function Dashboard(props) {
 
                     </div>
                 </Content>
-                <PageFooter />                 
-            </Layout>                            
+
+            </Layout>
+            <PageFooter />
         </Layout>
-        
+
+
     )
 
 }
